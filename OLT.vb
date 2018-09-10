@@ -252,8 +252,6 @@
         备用ip地址 = "1" & 分组ip(0) & "." & 分组ip(1) & "." & 分组ip(2) & "." & 分组ip(3)
         备用RouteIP = "1" & 分组ip(0) & "." & 分组ip(1) & "." & 分组ip(2) & "." & Int(分组ip(3)) - 1
         命令行 = "con t" & vbCrLf & vbCrLf &
-                 "username wjzx password 68302234 privilege 15" & vbCrLf &
-                 "username szwjzx password Sznoc2018)& privilege 15" & vbCrLf &
                  "username zte password zte privilege 15" & vbCrLf &
                  "clock timezone BeiJing 8" & vbCrLf &
                  "exit" & vbCrLf &
